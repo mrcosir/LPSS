@@ -1,0 +1,3 @@
+auth            sufficient      pam_mysql.so user=lpss passwd=lpss host=127.0.0.1:3306 db=openvpn table=test usercolumn=username passwdcolumn=password where=active=1 sqllog=0 crypt=1
+
+account         required        pam_mysql.so user=lpss passwd=lpss host=127.0.0.1:3306 db=openvpn table=test usercolumn=username passwdcolumn=password where=active=1 sqllog=0 crypt=1
