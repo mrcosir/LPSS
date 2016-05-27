@@ -27,21 +27,21 @@ read no
 
 case "$no" in
     '1' )
-        wget https://github.com/mu228/LPSS/blob/master/VPSMPB.sh && bash VPSMPB.sh;;
+        wget https://github.com/mu228/LPSS/raw/master/VPSMPB.sh && bash VPSMPB.sh;;
     '2' )
-        wget https://github.com/mu228/LPSS/blob/master/VPSMPY.sh && bash VPSMPY.sh ;;
+        wget https://github.com/mu228/LPSS/raw/master/VPSMPY.sh && bash VPSMPY.sh ;;
     '3')
-       wget https://github.com/mu228/LPSS/blob/master/VPSCGB.sh && bash VPSCGB.sh ;;
+       wget https://github.com/mu228/LPSS/raw/master/VPSCGB.sh && bash VPSCGB.sh ;;
     '4')
-       wget https://github.com/mu228/LPSS/blob/master/VPSCGY.sh && bash VPSCGY.sh ;;
+       wget https://github.com/mu228/LPSS/raw/master/VPSCGY.sh && bash VPSCGY.sh ;;
     '5' )
-        wget https://github.com/mu228/LPSS/blob/master/RQMPB.sh && bash RQMPB.sh ;;
+        wget https://github.com/mu228/LPSS/raw/master/RQMPB.sh && bash RQMPB.sh ;;
     '6' )
-        wget https://github.com/mu228/LPSS/blob/master/RQMPY.sh && bash RQMPY.sh ;;
+        wget https://github.com/mu228/LPSS/raw/master/RQMPY.sh && bash RQMPY.sh ;;
     '7')
-       wget https://github.com/mu228/LPSS/blob/master/RQCGB.sh && bash RQCGB.sh ;;
+       wget https://github.com/mu228/LPSS/raw/master/RQCGB.sh && bash RQCGB.sh ;;
     '8')
-       wget https://github.com/mu228/LPSS/blob/master/RQCGY.sh && bash RQCGY.sh ;;
+       wget https://github.com/mu228/LPSS/raw/master/RQCGY.sh && bash RQCGY.sh ;;
     *)
         echo "输入错误"
 esac
